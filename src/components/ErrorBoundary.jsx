@@ -1,33 +1,32 @@
+/* eslint-disable no-unused-vars */
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import './styles.css'
-export class ErrorBoundary extends Component {
+import PropTypes from 'prop-types';
 
-  constructor(props) {
-    super(props)
-  
-    this.state = {
-       error: null,
+class ErrorBoundary extends Component {
+    constructor(props) {
+        super(props);
+        this.state = { hasError: false };
     }
-  }
 
-  componentDidCatch(error, errorInfo){
-    console.log({error, errorInfo});
-  }
+    componentDidCatch(error, errorInfo) {
+        console.error("ErrorBoundary caught an error", error, errorInfo);
+        this.setState({ hasError: true });
+    }
 
-  static getDerivedStateFromError(error){
-    return {error};
-  }
-  
-
-  render() {
-    if(this.state.error)
-    return <div className='error-boundary'>Oops! Something went wrong!
-    <Link className='link' to='/'>GO HOME</Link>
-    </div>;
-
-    return this.props.children;
-  }
+    render() {
+        if (this.state.hasError) {
+            return (
+                <div>
+                    <h1>Something went Wrong.</h1>
+                </div>
+            );
+        }
+        return this.props.children;
+    }
 }
+
+ErrorBoundary.propTypes = {
+    children: PropTypes.node.isRequired
+};
 
 export default ErrorBoundary;
