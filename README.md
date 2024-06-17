@@ -1,8 +1,23 @@
-# React + Vite
+# SECOND SEMESTER EXAM PROJECT (ALT SCHOOL AFRICA)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Implement a web App using GITHUB API to fetch your Github repositories portfolio
+- The Web App should display a page listing all your repositories on GitHub with pagination enabled
+- Implement search and filter
+- Create another page showing data for a single repo when clicked from the page
+- Show all repos using nested routes while using all necessary tools in React
+- Implement an Error Boundary (show a page to test the error boundary)
+- A 404 page (show a page to test the 404 page)
+- Good Layout, UI and Designs are essential. Accessibility techniques are important
 
-Currently, two official plugins are available:
+### Bonus
+- Provide a button to Create a new repo using a Modal
+- Allow a way to update some details of the created repo
+- And finally add a way to delete the rep.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How it was built 
+The Project was built with but not limited to the following programs and dependencies.
+- Vite + React
+- Tailwind
+- React icons
+- React router
+
