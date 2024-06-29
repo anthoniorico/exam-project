@@ -32,6 +32,36 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh; 
+  background-color: #88ff80;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 100px;
+  height: 50%;
+  width: 100px;
+  background-color: ##88ff80;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.sidebar-link {
+  width: 80px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #88ff80;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.sidebar-link:hover {
+  background-color: #ffffff;
 }
 
 h1 {
@@ -41,7 +71,7 @@ h1 {
 
 button {
   border-radius: 8px;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;

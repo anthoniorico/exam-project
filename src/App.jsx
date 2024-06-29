@@ -13,6 +13,8 @@ import './App.css';
 function App() {
   return (
     <Router>
+      <MainContent />
+      <SideBar />
        <img src={logo} alt="Logo" className="logo" />   
       <ErrorBoundary>    
       <Routes>           
