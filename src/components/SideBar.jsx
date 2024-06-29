@@ -3,12 +3,13 @@ import React from 'react';
 
 const SideBar = () => {
 return (
-<div className="bg-gray-200 h-screen w-1/4">
+<div className="sidebar">
   {/* SideBar content */}
       <ul className="p-4">
-        <li>Link 1</li>
-        <li>Link 2</li>
-        <li>Link 3</li>
+        <button className="sidebar-link">Home</button>
+        <button className="sidebar-link">Official Website</button>
+        <button className="sidebar-link">Blogs</button>
+        <button className="sidebar-link">External Links</button>
       </ul>
     </div>
 );
