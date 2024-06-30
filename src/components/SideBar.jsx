@@ -6,10 +6,10 @@ return (
 <div className="sidebar">
   {/* SideBar content */}
       <ul className="p-4">
-        <button className="sidebar-link">Home</button>
         <button className="sidebar-link">Official Website</button>
-        <button className="sidebar-link">Blogs</button>
-        <button className="sidebar-link">External Links</button>
+        <button className="sidebar-link">Upwork Page</button>
+        <button className="sidebar-link">Linkedin Page</button>
+        <button className="sidebar-link">Indeed Page</button>
       </ul>
     </div>
 );
