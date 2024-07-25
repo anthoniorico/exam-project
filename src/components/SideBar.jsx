@@ -10,7 +10,8 @@ return (
         <button className="sidebar-link">Facebook Page</button></a>
         <a href="https://www.upwork.com/freelancers/~019eccfbd2d75bdd0b" target="_blank" rel="noopener noreferrer">
         <button className="sidebar-link">Upwork Page</button></a>
-        <button className="sidebar-link">Linkedin Page</button>
+       <a href="https://www.linkedin.com/public-profile/settings?trk=public-profile" target="_blank" rel="noopener noreferrer">
+        <button className="sidebar-link">Linkedin Page</button></a>
         <a href="https://ng.indeed.com/m/?from=profOnboarding#" target="_blank" rel="noopener noreferrer">
         <button className="sidebar-link">Indeed Page</button></a>
       </ul>
